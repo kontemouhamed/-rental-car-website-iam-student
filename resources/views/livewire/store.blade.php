@@ -11,7 +11,7 @@
                 <option value="">CHOIX</option>
                 <option value="haut">HAUT DE GAMME</option>
                 <option value="moyen">MOYEN DE GAMME</option>
-                <option value="bas">BAS DE GAMME</option>
+                <option value="bas">ENTREE DE GAMME</option>
             </select>
             <p class="h-6"></p>
             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-Adresse">

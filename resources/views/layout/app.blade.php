@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Esasy-K</title>
+    <title>Easy Cars</title>
     <meta name="description" content="Free open source Tailwind CSS Store template">
     <meta name="keywords"
         content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
@@ -62,11 +62,6 @@
 
             scroll-behavior: smooth;
             -webkit-overflow-scrolling: touch;
-
-            /*
-  scroll-snap-points-x: repeat(300px);
-  scroll-snap-type: mandatory;
-  */
         }
 
         .slides::-webkit-scrollbar {
@@ -193,12 +188,13 @@
                 <div class="order-1 md:order-2">
                     <a class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl "
                         href="{{ url('/') }}">
-                        <svg class="fill-current text-gray-800 mr-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                        <img class="h-15 w-32" src="{{ asset('storage/easycars.jpg') }}">
+                        {{-- <svg class="fill-current text-gray-800 mr-2" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24">
                             <path
                                 d="M5,22h14c1.103,0,2-0.897,2-2V9c0-0.553-0.447-1-1-1h-3V7c0-2.757-2.243-5-5-5S7,4.243,7,7v1H4C3.447,8,3,8.447,3,9v11 C3,21.103,3.897,22,5,22z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M5,10h2v2h2v-2h6v2h2v-2h2l0.002,10H5V10z" />
                         </svg>
-                        Esasy-K
+                        Esasy-K --}}
                     </a>
                 </div>
 
@@ -209,24 +205,24 @@
 
     <div class="grid grid-cols-1   mt-22">
         <section class="w-full mx-auto bg-nordic-gray-light flex pt-12 md:pt-0 md:items-center bg-cover bg-right"
-            style="max-width:1600px; height: 32rem; background-image: url('https://i.ebayimg.com/images/g/K2kAAOSwfLJgtjIf/s-l1600.jpg');">
+            style="max-width:1600px; height: 32rem; background-image: url({{ asset('storage/easycars.jpg') }});">
 
-            <div class="container mx-auto">
+            <div class="container mx-auto py-8">
 
                 <!-- Design tools -->
-                <div class="max-w-md py-3 px-6 bg-white shadow-lg rounded-lg my-20 -mx-32 bg-opacity-80">
+                {{-- <div class="max-w-md py-0  px-6 bg-white shadow-lg rounded-lg my-32 -mx-32 bg-opacity-50">
                     <div class="flex justify-center md:justify-end -mt-16">
                         <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
                             src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
                     </div>
                     <div>
-                        <h2 class="text-gray-800 text-3xl font-semibold">TROUVEZ VOTRE PROCHAINE VOITURE
+                        <h2 class="text-gray-800 text-2xl font-semibold">TROUVEZ VOTRE PROCHAINE VOITURE
                             FACILEMENT</h2>
                     </div>
-                    <div class="flex justify-end mt-4">
-                        <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
-                    </div>
-                </div>
+                    {{-- <div class="flex justify-end mt-4">
+                        <a href="#" class="text-xl font-medium text-indigo-500">Easy Cars</a>
+                    </div> --}}
+                </div> --}}
 
             </div>
 
